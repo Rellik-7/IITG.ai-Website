@@ -3,11 +3,14 @@ body {
   border: 0;
   box-sizing: border-box;
   background-color: black;
-  background-image: url("images/texture.png");
-  background-size: cover;
   font-family: "Questrial", sans-serif;
   font-family: "Work Sans", sans-serif;
   color: white;
+}
+.homepage {
+  height: 100vh;
+  background-image: url("images/texture.png");
+  background-size: cover;
 }
 #title {
   display: flex;

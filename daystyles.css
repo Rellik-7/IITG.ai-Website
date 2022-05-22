@@ -7,7 +7,7 @@ body {
   font-weight: 400;
 }
 .container {
-  max-width: 900px;
+  max-width: 1200px;
 }
 .navbar-expand-md .navbar-nav .nav-link {
   padding-right: initial;
@@ -16,10 +16,14 @@ body {
   text-decoration: none;
   color: white;
   opacity: 0.3;
-  font-size: 1.4rem;
+  font-size: 1.9rem;
 }
 #sidebar a.active {
   opacity: 1;
+  font-size: 1.9rem;
+}
+.navbar {
+  min-width: 110px;
 }
 h1 {
   font-weight: 700;
