@@ -33,8 +33,10 @@
       crossorigin="anonymous"
     ></script>
     <!-- StyleSheets -->
-    <link rel="stylesheet" href="./daystyles.css" />
-    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="stylesheet" href="./course-style.css" />
+    <link rel="stylesheet" href="./styles.css" />
+
     <title>Document</title>
   </head>
 
@@ -63,203 +65,41 @@
         </div>
         <div class="sub-heading">
           <div>Summer Course by IITG.ai</div>
-          <a href="#course">
+          <a href="#wrap">
             <div class="bi bi-arrow-down"></div>
           </a>
         </div>
       </div>
     </div>
-    <div class="content" id="course">
-      <div
-        class="container d-flex flex-column flex-md-row pt-5"
-        id="course-content"
-      >
-        <nav
-          class="navbar navbar-expand-md navbar-light d-flex flex-md-column p-0 mr-5"
-        >
-          <a href="#home">
-            <img src="./images/logo2.png" alt="logo" height="60" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse w-100 align-items-start"
-            id="navbarSupportedContent"
-          >
-            <ul
-              class="navbar-nav w-100 d-flex flex-md-column text-center text-md-end"
-              id="sidebar"
-              onclick="stateChange(event)"
-            >
-              <li>
-                <a class="nav-link active" aria-current="page" href="#day1"
-                  >Day 1</a
-                >
-              </li>
-              <li>
-                <a class="nav-link" href="#day2">Day 2</a>
-              </li>
-              <li>
-                <a class="nav-link" href="#day3">Day 3</a>
-              </li>
-              <li>
-                <a class="nav-link" href="#day4">Day 4</a>
-              </li>
-              <li>
-                <a class="nav-link" href="#day5">Day 5</a>
-              </li>
-              <li>
-                <a class="nav-link" href="#day6">Day 6</a>
-              </li>
-            </ul>
+    <div id="wrap">
+      <div class="curriculum">
+        <div class="heading">Curriculum</div>
+        <div class="topics">
+          <div class="container" id="ccwrap">
+            <div class="unique">
+              <div class="week">Week 1</div>
+              <div class="tags">
+                <button><a href="week1.html#course">Content</a></button>
+              </div>
+            </div>
+            <div class="info">
+              The 1st week deals with the basics of python, along with some
+              essential modules for data processing and visualization.
+            </div>
           </div>
-        </nav>
-        <main class="ps-0 ps-md-5 flex-grow-1">
-          <h1 id="day1">Day 1</h1>
-          <p>
-              <h2>Python Setup</h2>
-             The first step to get started with this course is to
-            install Python. Python is a very versatile and powerful programming
-            language that comes equipped with some great libraries. We will be
-            covering several of those modules in this week.
-          </p>
-          <p>
-              <h4>Anaconda Setup</h4>
-           
-           For Windows- <a href="https://www.datacamp.com/community/tutorials/installing-anaconda-windows">Link</a>
-            <br>
-            For Mac - <a href="https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x">Link</a>
-          </p>
-          <p>
-              <h4>Jupyter Notebook</h4>
-            Tutorial- <a href="https://pythonforundergradengineers.com/opening-a-jupyter-notebook-on-windows.html#:~:text=The%20last%20way%20to%20open">Link</a>
-          </p>
-          <p>
-            <h4>Basic Python</h4>
-            Youtube Playlist-<a href="https://youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU">Link</a>
-          </p>
-
-          <h1 id="day2">Day 2</h1>
-          Today’s resources mainly cover a few data structures you will often need while you write code in python. We have provided both blogs and video links, to cater to people who prefer either medium. We have also provided a few notebooks which can be really helpful to get some practice. Do play around with the notebooks to get comfortable with these data structures.
-          <p>
-            <h4>Lists</h4>
-            Blog-<a href="https://blog.logrocket.com/working-lists-python/">Link</a><br>
-            Youtube Tutorial -<a href="https://youtu.be/W8KRzm-HUcc">Link</a><br>
-            Notebook -<a href="https://drive.google.com/file/d/1k2YIoIEAD8BB-KZQOqc8o3OH4T93rKWe/view?usp=sharing">Link</a><br>
-          </p>
-                    <p>
-                    <h4>Dictionaries</h4>
-                    Youtube Tutorial -<a href="https://youtu.be/daefaLgNkw0">Link</a><br>
-                    Notebook -<a href="https://drive.google.com/file/d/1ASxf-fpzVysW9eHU5uvUaBMa8a-EQwtI/view?usp=sharing">Link</a><br>
-                    </p>
-                    <p>
-                        <h4>OS Module</h4>
-                        Tutorial -<a href="https://www.geeksforgeeks.org/os-module-python-examples/">Link</a><br>
-
-                    </p>
-
-        <h1 id="day3">Day 3</h1>
-        Numpy is one of the most versatile Python modules used for efficient data storage. It is used extensively in Machine Learning and Artificial Intelligence.It provides a high-performance multidimensional array object, and tools for working with these arrays.
-          <p>
-            <h4>Numpy</h4>
-            Introduction to Numpy-<a href="https://youtu.be/GB9ByFAIAH4">Link</a><br>
-            Tutorial -<a href="https://cs231n.github.io/python-numpy-tutorial/">Link</a><br>
-            Notebook -<a href="https://drive.google.com/file/d/1k2YIoIEAD8BB-KZQOqc8o3OH4T93rKWe/view?usp=sharing">Link</a><br>
-            Quick Reading-<a href="https://sebastianraschka.com/blog/2020/numpy-intro.html">Link</a><br>
-          </p>
-          <h1 id="day4">Day 4</h1>
-          Pandas is a Python package that is most widely used for data science/data analysis and machine learning tasks. It is built on top of Numpy, which provides support for multi-dimensional arrays. Pandas is most commonly used to handle tabular data and provides several tools that simplify working with the data.
-          <p>
-            <h4>Introduction to Pandas</h4>
-            Introductuctory Video-<a href="https://www.youtube.com/watch?v=yzIMircGU5I&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=3">Link</a><br>
-            Tutorial -<a href="https://www.tutorialspoint.com/python_pandas/index.htm">Link</a><br>
-          </p>
-          <h1 id="day5">Day 5</h1>
-          <p>
-            <h4>Pandas</h4>
-            Kaggle Challenge-<a href="https://www.kaggle.com/learn/pandas">Link</a><br>
-          </p>
-        <h1 id="day6">Day 6</h1>
-        Matplotlib is an amazing visualization library in Python for 2D plots of arrays. Matplotlib is a multi-platform data visualization library built on NumPy arrays. You will use it quite often to make quick graphs to visualise and grasp more information from your data.
-          <p>
-            <h4>Matplotlib</h4>
-            Tutorial Blog-<a href="https://www.geeksforgeeks.org/matplotlib-tutorial/?ref=lbp">Link</a><br>
-            Notebooks -<a href="https://github.com/donnemartin/data-science-ipython-notebooks/tree/master/matplotlib">Link</a><br><br>
-            <h4>Extra Materials</h4>
-            Visualization Tips-<a href="https://www.kaggle.com/code/subinium/simple-matplotlib-visualization-tips">Link</a><br>
-            Interacive Plots-<a href="https://towardsdatascience.com/how-to-produce-interactive-matplotlib-plots-in-jupyter-environment-1e4329d71651">Link</a><br>
-
-          </p>
-
-
-
-
-
-            
-          <!-- <h1 id="day3">Day 3</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                    ultrices auctor ornare. Etiam iaculis non est non dictum.
-                    Suspendisse lobortis, lectus tristique mollis bibendum, eros urna
-                    viverra nulla, quis ornare nulla sapien faucibus risus. Fusce in
-                    egestas orci. Donec vel nunc sed libero rhoncus ullamcorper tempor
-                    non orci. Nulla id risus id enim aliquet tempor. Mauris lacus nibh,
-                    efficitur sed malesuada quis, suscipit ac risus. Morbi imperdiet
-                    lacinia nisl, quis sollicitudin tortor blandit non. Praesent
-                    accumsan purus risus, rhoncus eleifend erat rhoncus sit amet.
-                    Maecenas id molestie erat.
-                </p>
-                <h1 id="day4">Day 4</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                    ultrices auctor ornare. Etiam iaculis non est non dictum.
-                    Suspendisse lobortis, lectus tristique mollis bibendum, eros urna
-                    viverra nulla, quis ornare nulla sapien faucibus risus. Fusce in
-                    egestas orci. Donec vel nunc sed libero rhoncus ullamcorper tempor
-                    non orci. Nulla id risus id enim aliquet tempor. Mauris lacus nibh,
-                    efficitur sed malesuada quis, suscipit ac risus. Morbi imperdiet
-                    lacinia nisl, quis sollicitudin tortor blandit non. Praesent
-                    accumsan purus risus, rhoncus eleifend erat rhoncus sit amet.
-                    Maecenas id molestie erat.
-                </p>
-                <h1 id="day5">Day 5</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                    ultrices auctor ornare. Etiam iaculis non est non dictum.
-                    Suspendisse lobortis, lectus tristique mollis bibendum, eros urna
-                    viverra nulla, quis ornare nulla sapien faucibus risus. Fusce in
-                    egestas orci. Donec vel nunc sed libero rhoncus ullamcorper tempor
-                    non orci. Nulla id risus id enim aliquet tempor. Mauris lacus nibh,
-                    efficitur sed malesuada quis, suscipit ac risus. Morbi imperdiet
-                    lacinia nisl, quis sollicitudin tortor blandit non. Praesent
-                    accumsan purus risus, rhoncus eleifend erat rhoncus sit amet.
-                    Maecenas id molestie erat.
-                </p>
-                <h1 id="day6">Day 6</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                    ultrices auctor ornare. Etiam iaculis non est non dictum.
-                    Suspendisse lobortis, lectus tristique mollis bibendum, eros urna
-                    viverra nulla, quis ornare nulla sapien faucibus risus. Fusce in
-                    egestas orci. Donec vel nunc sed libero rhoncus ullamcorper tempor
-                    non orci. Nulla id risus id enim aliquet tempor. Mauris lacus nibh,
-                    efficitur sed malesuada quis, suscipit ac risus. Morbi imperdiet
-                    lacinia nisl, quis sollicitudin tortor blandit non. Praesent
-                    accumsan purus risus, rhoncus eleifend erat rhoncus sit amet.
-                    Maecenas id molestie erat.
-                </p> -->
-        </main>
+          <div class="container" id="ccwrap">
+            <div class="unique">
+              <div class="week">Week 2</div>
+              <div class="tags">
+                <button>Content</button>
+              </div>
+            </div>
+            <div class="info">Coming Soon!</div>
+          </div>
+        </div>
       </div>
     </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
