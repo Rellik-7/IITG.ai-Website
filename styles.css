@@ -112,4 +112,8 @@ body {
   .sub-heading {
     font-size: 6vw;
   }
+  .bi-arrow-down {
+    position: relative;
+    top: 4rem;
+  }
 }
