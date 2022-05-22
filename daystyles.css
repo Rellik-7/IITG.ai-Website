@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  font-family: "Questrial", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+}
+.container {
+  max-width: 900px;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-right: initial;
+}
+#sidebar a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.3;
+  font-size: 1.4rem;
+}
+#sidebar a.active {
+  opacity: 1;
+}
+h1 {
+  font-weight: 700;
+}
+.navbar-toggler-icon {
+  background-color: grey;
+}
