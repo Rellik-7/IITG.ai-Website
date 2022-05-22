@@ -10,6 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=Questrial&family=Work+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
+    <!-- Bootstrap Font Icon CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
     <!-- Bootstrap -->
     <link
       rel="stylesheet"
@@ -28,7 +33,7 @@
       crossorigin="anonymous"
     ></script>
     <!-- StyleSheets -->
-    <link rel="stylesheet" href="daystyles.css">
+    <link rel="stylesheet" href="daystyles.css" />
     <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
@@ -57,12 +62,18 @@
         </div>
         <div class="sub-heading">
           <div>Summer Course by IITG.ai</div>
+        <a href="#course"><div class="bi bi-arrow-down"></div></a>
         </div>
       </div>
     </div>
-    <div class="content">
-      <div class="container d-flex flex-column flex-md-row" >
-        <nav class="navbar navbar-expand-md navbar-light d-flex flex-md-column p-0 mr-5">
+    <div class="content" id="course">
+      <div
+        class="container d-flex flex-column flex-md-row pt-5"
+        id="course-content"
+      >
+        <nav
+          class="navbar navbar-expand-md navbar-light d-flex flex-md-column p-0 mr-5"
+        >
           <a href="#home">
             <img src="./images/logo2.png" alt="logo" height="60" />
           </a>
