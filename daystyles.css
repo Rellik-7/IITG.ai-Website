@@ -6,6 +6,11 @@ body {
   font-style: normal;
   font-weight: 400;
 }
+#course {
+  background-image: url("./images/Group2.png");
+  background-size: cover;
+  padding-bottom: 40px;
+}
 #course-content {
   max-width: 1200px;
 }
