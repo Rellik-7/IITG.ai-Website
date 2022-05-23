@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: "Questrial", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.homepage {
+  height: 100vh;
+  background-image: url("images/texture.png");
+  background-size: cover;
+}
+#title {
+  display: flex;
+  /* position: absolute; */
+}
+.logo {
+  /* position: absolute;
+  left: 4rem;
+  top: 3rem; */
+  margin-left: 2rem;
+  margin-top: 2rem;
+  mix-blend-mode: screen;
+}
+.img {
+  position: absolute;
+  right: 0;
+  top: -7rem;
+  mix-blend-mode: screen;
+}
+.bi-arrow-down {
+  color: white;
+  font-size: 2.5rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 35px;
+  text-align: center;
+}
+/* .main-heading {
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6.5vw;
+  bottom: 12rem;
+  left: 4rem;
+  letter-spacing: -0.02em;
+  line-height: 3rem;
+  text-shadow: 2px 4px 32px rgba(0, 0, 0, 0.33);
+}
+.sub-heading {
+  position: absolute;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.5vw;
+  bottom: 6rem;
+  left: 4rem;
+  letter-spacing: -0.02em;
+  line-height: 1.5rem;
+  text-shadow: 2px 4px 32px rgba(0, 0, 0, 0.33);
+}
+@media (max-width: 1000px) {
+  .main-heading {
+    font-size: 10vw;
+    text-align: center;
+    left: 2rem;
+    top: 24.5rem;
+  }
+  .sub-heading {
+    font-size: 6vw;
+    text-align: center;
+    left: 3.4rem;
+    top: 28.5rem;
+  }
+} */
+.text {
+  font-style: normal;
+  letter-spacing: -0.02em;
+  text-shadow: 2px 4px 32px rgba(0, 0, 0, 0.33);
+  margin-top: 43vh;
+  margin-left: 3rem;
+}
+.main-heading {
+  font-weight: 700;
+  font-size: 6.5vw;
+  opacity: 0.85;
+}
+.sub-heading {
+  font-weight: 400;
+  font-size: 3.5vw;
+  opacity: 0.85;
+}
+@media (max-width: 700px) {
+  .text {
+    margin-top: 50vh;
+  }
+}
+@media (max-width: 1000px) {
+  .text {
+    text-align: center;
+    margin-top: 40vh;
+    margin-left: auto;
+  }
+  .main-heading {
+    font-size: 10vw;
+    margin-bottom: 1vh;
+  }
+  .sub-heading {
+    font-size: 6vw;
+  }
+  .bi-arrow-down {
+    position: relative;
+    top: 4rem;
+  }
+}
